@@ -1,4 +1,4 @@
--- linguist-language=postgresql
+-- linguist-language=PostgreSQL
 
 select * from products --ürünler
 select * from employees --çalışanlar
