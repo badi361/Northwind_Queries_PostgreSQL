@@ -1,13 +1,11 @@
--- linguist-language=PostgreSQL
-
-select * from products --ürünler
-select * from employees --çalışanlar
-select * from customers -- müşteriler
-select * from orders --siparişler
-select * from shippers --nakliyatçılar
-select * from suppliers --tedarikçiler
-select * from categories --kategori
-select * from order_details --sipariş detayı
+select * from products
+select * from employees
+select * from customers
+select * from orders
+select * from shippers
+select * from suppliers
+select * from categories
+select * from order_details
 
 --1. Product isimlerini (`ProductName`) ve birim başına miktar (`QuantityPerUnit`) değerlerini almak için sorgu yazın.
 select product_name, quantity_per_unit from products;
